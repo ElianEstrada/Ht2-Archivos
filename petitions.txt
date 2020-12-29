@@ -1,0 +1,11 @@
+1. Registro
+    -Tipo de Petición: Post
+    -Ruta: localhost:3000/registro
+
+2. Login
+    -Tipo de Petición: Post
+    -Ruta: localhost:3000/login
+
+3. Obetener Usuarios
+    -Tipo de Petición: Get
+    -Ruta: localhost:3000/getUsuarios

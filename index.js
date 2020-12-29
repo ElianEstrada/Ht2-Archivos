@@ -77,7 +77,9 @@ app.listen(port, () => {
     console.log("The server listening on port 3000")
 });
 
-app.get('/', getStudents);
+app.get('/', (req, res) => {
+    res.send("Gracias por calificarme todavía :3")
+});
 
 app.post('/login', login);
 
